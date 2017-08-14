@@ -15,7 +15,7 @@ Yazhou_20170812/
 ?  +-- darknet-master_navlib.rar: the darknet code that has been changed for windows platform  
 +-- [Data]/  
 ?  +-- CATS_Release/		: the thermal-color image pair dataset publish in CVPR2017"CATS: A Color and Thermal Stereo Benchmark", available from http://bigdatavision.org/CATS/.
-?  +-- inter_res		: the intermediate results  
+?  +-- inter_res/		: the intermediate results. We have labeled 919 IR images for benchmarking. The images and labels (Yolo format) are in IR_groundTruth/ folder. And the labels in the VOC format are in the labels/ folder.
 +-- [Doc]/  
 ?  +-- navlab.20170725.pptx	: biweekly report 1  
 ?  +-- navlab.20170808.pptx	: biweekly report 2  
