@@ -9,10 +9,10 @@ All the code, data and models are backuped in the drive of Navlab:
 ```
 * Yazhou_20170812/
 	* [Code]/
->>> api						: the self defined API functions for person/car detection  
-	?  +-- windows					: the vs2015 project of person/car detector  
-	?  +-- darknet-master.zip		: the yolo dart source, available from: https://github.com/pjreddie/darknet.git  
-	?  +-- darknet-master_navlib.rar: the darknet code that has been changed for windows platform  
+		* api/	: the self defined API functions for person/car detection   
+		* windows/ : the vs2015 project of person/car detector  
+		* darknet-master.zip : the yolo dart source, available from: https://github.com/pjreddie/darknet.git  
+		* darknet-master_navlib.rar : the darknet code that has been changed for windows platform  
 	+-- [Data]/  
 	?  +-- CATS_Release				: the thermal-color image pair dataset publish in CVPR2017"CATS: A Color and Thermal Stereo Benchmark", available from:http://bigdatavision.org/CATS/  
 	?  +-- inter_res				: the intermediate results  
