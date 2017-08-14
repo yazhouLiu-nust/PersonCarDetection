@@ -45,7 +45,7 @@ Yazhou_20170812/
 ## 3) Code instruction:
 
 * The backend of training and testing is Darknet(Yolo), which is c/c++ code. The original platform is Liunx but can be adopted to Windows with minor changes.
-* The API functions for ojects detection has been provided in [Code]/api/person_lib_api.h, this API is plaform independent and can be used in both Linux and Windows.*
+* The API functions for ojects detection has been provided in [Code]/api/person_lib_api.h, this API is plaform independent and can be used in both Linux and Windows.
 * The demo functions showing how to use APIs have been provided in [Code]/api/main.cpp. These demo functions are for windows and use opencv as image I/O.
 	* dummy_test1(): this function is for a single image detection.
 	* dummy_test2(): this function is to test the images from a webcamera.
