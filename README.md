@@ -3,7 +3,8 @@ This folder contains the works of person/car detection that carried out by Yazho
 
  
 ## File structure: 
-
+All the code, data and models are backuped in the drive of Navlab:
+```
 	Yazhou_20170812/  
 	+-- [Code]/
 	?  +-- api						: the self defined API functions for person/car detection  
@@ -36,10 +37,11 @@ This folder contains the works of person/car detection that carried out by Yazho
 	?  ?  +-- navlab_300000.weights	: the weights of the model, 300000 is the training iteration  
 	+-- [Tools]/  
 	?  +-- LabelImage				: the image label tools, output is in pascal voc format, available from: https://github.com/tzutalin/labelImg  
+```
 
-#======================#  
-| 3) Code instruction: |  
-#======================#  
+
+## 3) Code instruction:
+
 	+ The backend of training and testing is Darknet(Yolo), which is c/c++ code. The original platform is Liunx but can be adopted to Windows with minor changes.  
 	+ The API functions for ojects detection has been provided in [Code]/api/person_lib_api.h, this API is plaform independent and can be used in both Linux and Windows.  
 	+ The demo functions showing how to use APIs have been provided in [Code]/api/main.cpp. These demo functions are for windows and use opencv as image I/O.  
