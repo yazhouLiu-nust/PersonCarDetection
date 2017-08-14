@@ -7,9 +7,9 @@ This folder contains the works of person/car detection that carried out by Yazho
 ## File structure: 
 All the code, data and models are backuped in the drive of Navlab:
 ```
-* Yazhou_20170812/
-	* [Code]/
-		* api/	: the self defined API functions for person/car detection   
+**Yazhou_20170812/*
+	**[Code]/*
+		**api/*	- the self defined API functions for person/car detection   
 		* windows/ : the vs2015 project of person/car detector  
 		* darknet-master.zip : the yolo dart source, available from: https://github.com/pjreddie/darknet.git  
 		* darknet-master_navlib.rar : the darknet code that has been changed for windows platform  
