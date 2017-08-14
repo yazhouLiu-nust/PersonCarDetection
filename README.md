@@ -50,7 +50,7 @@ Yazhou_20170812/
 	* dummy_test1(): this function is for a single image detection.
 	* dummy_test2(): this function is to test the images from a webcamera.
 	* dummy_test3(): this function is to test the image from a list, and provide the blured ROI.
-	* dummy_test3(): this function is to test the image from a video sequence.
+	* dummy_test4(): this function is to test the image from a video sequence.
 	* make_video() : This code is to make the video in the report navlab.20170725.
 	* make_video1(): This code is to make the video in the report navlab.20170808.
 	* make_video2(): This code is to make the video in the report navlab.20170814.
