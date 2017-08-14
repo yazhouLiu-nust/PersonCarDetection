@@ -1,7 +1,6 @@
 "# PersonCarDetection"  
-#======================#  
-| 1) Synopsis:         |  
-#======================#  
+
+##Synopsis:
 	Synopsis:  
 	This folder contains the works of person/car detection that carried out by Yazhou Liu in Navlab, CMU, from 2018/07/13 to 2018/08/15.  
 	The target of this research is to build a person/car detector that works for both RGB/IR image.  
