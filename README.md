@@ -9,12 +9,12 @@ All the code, data and models are backuped in the drive of Navlab:
 ```
 Yazhou_20170812/  
 +-- [Code]/
-?  +-- api			: the self defined API functions for person/car detection  
-?  +-- window			: the vs2015 project of person/car detector  
+?  +-- api/			: the self defined API functions for person/car detection  
+?  +-- window/			: the vs2015 project of person/car detector  
 ?  +-- darknet-master.zip	: the yolo dart source, available from: https://github.com/pjreddie/darknet.git  
 ?  +-- darknet-master_navlib.rar: the darknet code that has been changed for windows platform  
 +-- [Data]/  
-?  +-- CATS_Release		: the thermal-color image pair dataset publish in CVPR2017"CATS: A Color and Thermal Stereo Benchmark", available from http://bigdatavision.org/CATS/.
+?  +-- CATS_Release/		: the thermal-color image pair dataset publish in CVPR2017"CATS: A Color and Thermal Stereo Benchmark", available from http://bigdatavision.org/CATS/.
 ?  +-- inter_res		: the intermediate results  
 +-- [Doc]/  
 ?  +-- navlab.20170725.pptx	: biweekly report 1  
@@ -25,20 +25,20 @@ Yazhou_20170812/
 ?  +-- res_ir_RGB.wmv		: video source in biweekly report 3  
 ?  +-- res_night.wmv		: video source in biweekly report 3  
 +-- [Models]/  
-?  +-- Model1			: the model from yolo as the benchmark, refer to biweekly report 1  
+?  +-- Model1/			: the model from yolo as the benchmark, refer to biweekly report 1  
 ?  ?  +-- yolo-voc.cfg		: the configuration of the model  
 ?  ?  +-- yolo-voc.weights	: the weights of the model  
-?  +-- Model2			: the re-trained model for person/car/bus/truck, refer to biweekly report 1  
+?  +-- Model2/			: the re-trained model for person/car/bus/truck, refer to biweekly report 1  
 ?  ?  +-- navlab.cfg		: the configuration of the model  
 ?  ?  +-- navlab_80000.weights	: the weights of the model, 80000 is the training iteration  
-?  +-- Model3			: the re-trained model using gray image and color image, refer to biweekly report 2  
+?  +-- Model3/			: the re-trained model using gray image and color image, refer to biweekly report 2  
 ?  ?  +-- navlab.cfg		: the configuration of the model  
 ?  ?  +-- navlab_150000.weights	: the weights of the model, 150000 is the training iteration  
-?  +-- Model4			: the re-trained model using gray image, negative image and color image, refer to biweekly report 2  
+?  +-- Model4/			: the re-trained model using gray image, negative image and color image, refer to biweekly report 2  
 ?  ?  +-- navlab.cfg		: the configuration of the model  
 ?  ?  +-- navlab_300000.weights	: the weights of the model, 300000 is the training iteration  
 +-- [Tools]/  
-?  +-- LabelImage		: the image label tools, output is in pascal voc format, available from: https://github.com/tzutalin/labelImg  
+?  +-- LabelImage/		: the image label tools, output is in pascal voc format, available from: https://github.com/tzutalin/labelImg  
 ```
 
 
