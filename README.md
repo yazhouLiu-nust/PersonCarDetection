@@ -13,6 +13,7 @@ Yazhou_20170812/
 ?  +-- window/			: the vs2015 project of person/car detector  
 ?  +-- darknet-master.zip	: the yolo dart source, available from: https://github.com/pjreddie/darknet.git  
 ?  +-- darknet-master_navlib.rar: the darknet code that has been changed for windows platform  
+?  +-- person_sdk.tar.gz	: the linux compilable version, just click run_sh.sh, the code will compiled(No GPU).
 +-- [Data]/  
 ?  +-- CATS_Release/		: the thermal-color image pair dataset publish in CVPR2017"CATS: A Color and Thermal Stereo Benchmark", available from http://bigdatavision.org/CATS/.
 ?  +-- inter_res/		: the intermediate results. We have labeled 919 IR images for benchmarking. The images and labels (Yolo format) are in IR_groundTruth/ folder. And the labels in the VOC format are in the labels/ folder.
