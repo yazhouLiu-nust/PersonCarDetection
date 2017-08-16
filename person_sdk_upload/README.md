@@ -28,7 +28,7 @@ person_sdk_upload/
 1. Open terminal in ./person_sdk_upload/linux_cpu/ folder.
 2. Run the script by "bash run_sh.sh"
 3. Done. The script will compile the code and run the demo automatically.
-**NOTE: on the bottom of the script, "./main ./model/navlab.cfg ./model/navlab_300000.weights ./model/IR13.asf", you should change the path before running.
+* NOTE: on the bottom of the script, "./main ./model/navlab.cfg ./model/navlab_300000.weights ./model/IR13.asf", you should change the path before running.
 
 
 ## How to compile and run GPU demo: 
@@ -36,4 +36,4 @@ person_sdk_upload/
 2. Compile the code by "make"
 3. Run the script by "bash run_sh.sh"
 4. Done.
-**NOTE: on the bottom of the run_sh.sh", "./main ./model/navlab.cfg ./model/navlab_300000.weights ./model/IR13.asf", you should change the path before running.
+* NOTE: on the bottom of the run_sh.sh", "./main ./model/navlab.cfg ./model/navlab_300000.weights ./model/IR13.asf", you should change the path before running.
