@@ -34,7 +34,7 @@ person_sdk_upload/
 
 ## How to compile and run GPU demo: 
 1. Open terminal in ./person_sdk_upload/linux_gpu/ folder.
-2. Compile the code by "make"
+2. Compile the code by "make" (According to your PC setup, you can change the flag to enable/disable the OpenCV/GPU/CUDNN on the first few lines in the Makefile)
 3. Run the script by "bash run_sh.sh"
 4. Done.
 * NOTE: on the bottom of the run_sh.sh", "./main ./model/navlab.cfg ./model/navlab_300000.weights ./model/IR13.asf", you should change the path before running.
