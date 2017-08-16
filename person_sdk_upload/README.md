@@ -5,6 +5,7 @@ This folder contains the works of person/car detection demo. The target of this 
 
 ## File structure: 
 Pull to your local drive and decompress the linux_cpu.tar.gz and linux_gpu.tar.gz, you will get following file structure:
+* NOTE: the source code in /src/ and demo code in /test_lib/ are the same for linux_cpu/ and linux_gpu/. Duplicate them just for clarity reason.
 ```
 person_sdk_upload/  
 +-- linux_cpu/
